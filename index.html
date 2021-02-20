@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+  <title>Personalized Singing Voice Conversion in Cloning a Virtual Singer Based on One-Shot Learning and Non-parallel Speech Training Data</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: auto;
+      padding: 5%;
+      max-width: 1000px;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+    td img {
+      width: 100%;
+    }
+    th, td {
+      padding: 0px;
+      padding-bottom: 0px;
+      padding-top: 0px;
+    }
+    audio {
+      width: 240px;
+      height: 30px;
+    }
+    table {
+      max-width: 80%;
+    }
+    h1 {
+      font-size: 35px;
+    }
+    h2 {
+      font-size: 25px;
+      font-weight: normal;
+    }
+    p {
+      font-size: 16px;
+    }
+    controls {
+      width: 300px;
+      height: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<div style="max-width: 80%; margin-right: auto; margin-left:auto;">
+  <h1 style="text-align:center; font-size: 40px;">Personalized Singing Voice Conversion in Cloning a Virtual Singer Based on One-Shot Learning and Non-parallel Speech Training Data</h1>
+</div>
+
+<br/>
+<br/>
+<br/>
+
+<table align="center" style="text-align: center;">
+  <tr>
+    <td></td>
+    <td>Original voice</td>
+    <td>小幸運</td>
+    <td>至少還有你</td>
+    <td>月亮代表我的心</td>
+    <td>你是我的眼</td>
+    <td>兩隻老虎</td>
+  </tr>
+  <tr>
+    <td>Synthesis Singing Voice</td>
+    <td><audio controls style="width:150px;"> <source src=""> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song1/小幸運_hill.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song2/至少還有你_hill.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song3/月亮代表我的心_hill.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song4/你是我的眼_hill.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song5/兩隻老虎_hill.wav"> </audio></td>
+  </tr>
+  <tr>
+    <td>Female 1</td> <!-- 136 -->
+    <td><audio controls style="width:150px;"> <source src="samples/original_voice/T0055G0136S0021.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song1/小幸運_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song2/至少還有你_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song3/月亮代表我的心_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song4/你是我的眼_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song5/兩隻老虎_.wav"> </audio></td>
+  </tr>
+  <tr>
+    <td>Female 2</td> <!-- 201 -->
+    <td><audio controls style="width:150px;"> <source src="samples/original_voice/T0055G0201S0033.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song1/小幸運_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song2/至少還有你_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song3/月亮代表我的心_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song4/你是我的眼_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song5/兩隻老虎_.wav"> </audio></td>
+  </tr>
+  <tr>
+    <td>Female 3</td> <!-- 74 -->
+    <td><audio controls style="width:150px;"> <source src="samples/original_voice/T0055G0074S0010.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song1/小幸運_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song2/至少還有你_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song3/月亮代表我的心_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song4/你是我的眼_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song5/兩隻老虎_.wav"> </audio></td>
+  </tr>
+  <tr>
+    <td>Male 1</td> <!-- 19 -->
+    <td><audio controls style="width:150px;"> <source src="samples/original_voice/T0055G0019S0039.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song1/小幸運_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song2/至少還有你_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song3/月亮代表我的心_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song4/你是我的眼_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song5/兩隻老虎_.wav"> </audio></td>
+  </tr>
+  <tr>
+    <td>Male 2</td> <!-- 743 -->
+    <td><audio controls style="width:150px;"> <source src="samples/original_voice/T0055G0743S0014.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song1/小幸運_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song2/至少還有你_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song3/月亮代表我的心_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song4/你是我的眼_.wav"> </audio></td>
+    <td><audio controls style="width:150px;"> <source src="samples/song5/兩隻老虎_.wav"> </audio></td>
+  </tr>
+</table>
+
+<br/>
+
+<br/>
+<br/>
+<br/>
+
+
+
+<script>
+  let players = Array.prototype.slice.call(document.querySelectorAll('audio'));
+  players.forEach(player => {
+      player.addEventListener('play', event => {
+          players.forEach(p => {
+              if (player != p) {p.pause();}
+          });
+      });
+  });
+</script>
+</body>
