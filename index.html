@@ -47,75 +47,112 @@
 <body>
 
 <div style="max-width: 80%; margin-right: auto; margin-left:auto;">
-  <h1 style="text-align:center; font-size: 40px;">Personalized Singing Voice Conversion in Cloning a Virtual Singer Based on One-Shot Learning and Non-parallel Speech Training Data</h1>
+  <h1 style="text-align:center; font-size: 35px;">Personalized Singing Voice Conversion in Cloning a Virtual Singer Based on One-Shot Learning and Non-parallel Speech Training Data</h1>
 </div>
 
 <br/>
 <br/>
 <br/>
+
+<div style="max-width: 80%; margin-right: auto; margin-left:auto;">
+  <h1 style="text-align:left; font-size: 20px;">Many-to-many SVC</h1>
+</div>
+
+<br/>
+
 <table align="center" style="text-align: center;">
   <tr>
     <td></td>
-    <td>Content</td>
-    <td>小幸運</td>
-    <td>至少還有你</td>
-    <td>月亮代表我的心</td>
-    <td>你是我的眼</td>
-    <td>兩隻老虎</td>
+    <td>Timbre</td>
+    <td>Leehom Wang -<br>A Simple Song</td>
+    <td>Yanzi Sun -<br>Encounter</td>
+    <td>Happy Birthday</td>
+    <td>Two Tigers</td>
   </tr>
   <tr>
-    <td>Timbre0</td>
-    <td><audio controls style="width:150px;"> <source src=""> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song1/小幸運_hill.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song2/至少還有你_hill.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song3/月亮代表我的心_hill.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song4/你是我的眼_hill.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song5/兩隻老虎_hill.wav"> </audio></td>
+    <td>Synthesizer </td>
+    <td><audio controls style="width:200px;"> <source src=""> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song1/Hill_A_Simple_Song.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song2/Hill_Encounter.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song3/Hill_Happy_Birthday.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song4/Hill_Two_Tigers.wav"> </audio></td>
   </tr>
   <tr>
-    <td>Timbre1</td> <!-- 136 -->
-    <td><audio controls style="width:150px;"> <source src="samples/original_voice/T0055G0136S0021.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song1/小幸運_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song2/至少還有你_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song3/月亮代表我的心_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song4/你是我的眼_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song5/兩隻老虎_.wav"> </audio></td>
+    <td>Female1 </td> <!-- 136 -->
+    <td><audio controls style="width:200px;"> <source src="samples/original_voice/T0055G0136S0021.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song1/A136_A_Simple_Song.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song2/A136_Encounter.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song3/A136_Happy_Birthday.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song4/A136_Two_Tigers.wav"> </audio></td>
   </tr>
   <tr>
-    <td>Timbre2</td> <!-- 201 -->
-    <td><audio controls style="width:150px;"> <source src="samples/original_voice/T0055G0201S0033.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song1/小幸運_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song2/至少還有你_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song3/月亮代表我的心_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song4/你是我的眼_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song5/兩隻老虎_.wav"> </audio></td>
+    <td>Female2 </td> <!-- 201 -->
+    <td><audio controls style="width:200px;"> <source src="samples/original_voice/T0055G0201S0033.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song1/A201_A_Simple_Song.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song2/A201_Encounter.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song3/A201_Happy_Birthday.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song4/A201_Two_Tigers.wav"> </audio></td>
   </tr>
   <tr>
-    <td>Timbre3</td> <!-- 74 -->
-    <td><audio controls style="width:150px;"> <source src="samples/original_voice/T0055G0074S0010.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song1/小幸運_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song2/至少還有你_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song3/月亮代表我的心_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song4/你是我的眼_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song5/兩隻老虎_.wav"> </audio></td>
+    <td>Female3 </td> <!-- 74 -->
+    <td><audio controls style="width:200px;"> <source src="samples/original_voice/T0055G0074S0010.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song1/A74_A_Simple_Song.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song2/A74_Encounter.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song3/A74_Happy_Birthday.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song4/A74_Two_Tigers.wav"> </audio></td>
   </tr>
   <tr>
-    <td>Timbre4</td> <!-- 19 -->
-    <td><audio controls style="width:150px;"> <source src="samples/original_voice/T0055G0019S0039.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song1/小幸運_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song2/至少還有你_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song3/月亮代表我的心_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song4/你是我的眼_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song5/兩隻老虎_.wav"> </audio></td>
+    <td>Male1 </td> <!-- 19 -->
+    <td><audio controls style="width:200px;"> <source src="samples/original_voice/T0055G0019S0039.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song1/A19_A_Simple_Song.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song2/A19_Encounter.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song3/A19_Happy_Birthday.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song4/A19_Two_Tigers.wav"> </audio></td>
   </tr>
   <tr>
-    <td>Timbre5</td> <!-- 743 -->
-    <td><audio controls style="width:150px;"> <source src="samples/original_voice/T0055G0743S0014.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song1/小幸運_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song2/至少還有你_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song3/月亮代表我的心_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song4/你是我的眼_.wav"> </audio></td>
-    <td><audio controls style="width:150px;"> <source src="samples/song5/兩隻老虎_.wav"> </audio></td>
+    <td>Male2 </td> <!-- 743 -->
+    <td><audio controls style="width:200px;"> <source src="samples/original_voice/T0055G0743S0014.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song1/A743_A_Simple_Song.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song2/A743_Encounter.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song3/A743_Happy_Birthday.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/song4/A743_Two_Tigers.wav"> </audio></td>
+  </tr>
+</table>
+
+<br/>
+<br/>
+<br/>
+
+<div style="max-width: 80%; margin-right: auto; margin-left:auto;">
+  <h1 style="text-align:left; font-size: 20px;">One-shot SVC</h1>
+  <p>* "Two Tigers" as the target musical score.</p>
+</div>
+
+<table align="center" style="text-align: center;">
+  <tr>
+    <td></td>
+    <td>Source</td>
+    <td>Convert*</td>
+  </tr>
+  <tr>
+    <td>Jay Chou - (speech) </td>
+    <td><audio controls style="width:200px;"> <source src="samples/one-shot/Jay.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/one-shot/Jay_Two_Tigers.wav"> </audio></td>
+  </tr>
+  <tr>
+    <td>Dabe Chen - (singing) </td>
+    <td><audio controls style="width:200px;"> <source src="samples/one-shot/Dabe.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/one-shot/Dabe_Two_Tigers.wav"> </audio></td>
+  </tr>
+  <tr>
+    <td>JLEE - (singing) </td>
+    <td><audio controls style="width:200px;"> <source src="samples/one-shot/JLEE.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/one-shot/JLEE_Two_Tigers.wav"> </audio></td>
+  </tr>
+  <tr>
+    <td>NJAT - (singing) </td>
+    <td><audio controls style="width:200px;"> <source src="samples/one-shot/NJAT.wav"> </audio></td>
+    <td><audio controls style="width:200px;"> <source src="samples/one-shot/NJAT_Two_Tigers.wav"> </audio></td>
   </tr>
 </table>
 
